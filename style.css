@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(79, 224, 65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100h;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: yellow;
+    padding: 10px 10px 10px;
+    text-align: center;
+}
+header h1{
+    font-size: 24px;
+}
+section {
+    width: 80%;
+    padding: 10px 10px ;
+    color: blue;
+}
+section h2{
+    color: blue;
+}
+section ul{
+    color: red;
+}
+section p{
+    padding: 10px;
+    color: black;
+}
+section img{
+    display: block;
+    margin: 20px auto 0 auto;
+    border: solid;
+    border-radius: 20px;
+    width: 120px;
+}
